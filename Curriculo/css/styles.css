@@ -1,1 +1,11 @@
 
+#principal{
+    border: solid 1px rgba(204, 204, 204, 0.8);
+    padding: 5px;
+    margin: 0 auto;
+    width: 85%;
+    background-color: beige;
+}
+fieldset{
+    margin-bottom: 10px;
+}
