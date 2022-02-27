@@ -9,3 +9,14 @@
 fieldset{
     margin-bottom: 10px;
 }
+legend{
+    border: solid 2px rgb(187, 187, 187);
+    padding: 5px;
+    font-weight: bold;
+    background: rgb(204, 204, 204);
+    border-radius: 15px;
+}
+#yop{
+    border: solid 2px;
+    margin: 10px;
+}
