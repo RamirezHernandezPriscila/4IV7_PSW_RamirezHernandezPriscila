@@ -32,11 +32,12 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
+    color: rgb(165, 233, 229);
 }
 
 .hamburguer{
     position: fixed;
+    z-index: 10;
     top: 30px;
     right: 30px;
     background: #fff;
@@ -46,7 +47,7 @@ header{
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(140, 187, 209, 0.5);
 }
-.menu-naavegacion{
+.menu-navegacion{
     position: fixed;
     top: 0;
     right: 0;
@@ -57,8 +58,20 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .titulo{
     font-size: 60;
     margin-bottom: 15px; 
@@ -70,11 +83,26 @@ header{
     font-size: 25px;
 }
 
-.menu-naavegacion{
-    po
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #8abad0;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
+.contenedor-QuienesSomos{
+    text-align: center;
+}
 
+.contenedor-Quehacemos img{
+    width: 40%;
+}
+.checklist-Quehacemos{
+    text-align: center;
+    width: 90%;
 
-
-
+}
+.contenedor-producto img{
+    width: 40%;
+}
